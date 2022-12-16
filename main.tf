@@ -18,7 +18,7 @@ bucket = "cokkerkrc08"
 
 resource "aws_ebs_volume" "three" {
 availability_zone = "ap-south-1a"
-size = 3
+size = 8
 tags = {
 Name = "main_volume"
 }
